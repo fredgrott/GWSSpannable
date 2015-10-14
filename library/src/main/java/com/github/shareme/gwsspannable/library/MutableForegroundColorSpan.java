@@ -18,6 +18,7 @@
 
 package com.github.shareme.gwsspannable.library;
 
+import android.annotation.SuppressLint;
 import android.graphics.Color;
 import android.os.Parcel;
 import android.support.annotation.NonNull;
@@ -29,6 +30,8 @@ import android.text.style.ForegroundColorSpan;
  * MutableForegroundColorSpan class
  * Created by fgrott on 9/7/2015.
  */
+//TODO: do we need a parceble  CREATOR field in this class?
+@SuppressLint("ParcelCreator")
 @SuppressWarnings("unused")
 public class MutableForegroundColorSpan extends ForegroundColorSpan {
 

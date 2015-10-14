@@ -30,8 +30,7 @@ import android.widget.TextView;
 
 import static java.lang.Character.isWhitespace;
 
-import static com.grottworkshop.gwsspannable.text.style.JustifySpan.Mode.ALL_CHARACTERS;
-import static com.grottworkshop.gwsspannable.text.style.JustifySpan.Mode.WHITESPACE_ONLY;
+
 
 
 /**
