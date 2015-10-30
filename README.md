@@ -20,7 +20,7 @@ Than in the module buildscript:
 
 
 ```groovy
-compile 'com.github.shareme:GWSSpannable:1.0.0.0@aar'
+compile 'com.github.shareme:GWSSpannable:{latest-release-number}@aar'
 ```
 
 
